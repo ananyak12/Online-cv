@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<%- include('partials/header') %>
+
+  <body>
+    <h3>Login!</h3>
+    <form class="login" action="/blog/login" method="post">
+      <hr>
+      <div class = "col-md-4">
+      Username:<input type="text" name="username" value="" class = "form-control"><br>
+      Password:<input type="text" name="password" value="" class = "form-control"><br>
+    </div>
+      <input type="submit" name="Submit" value="Submit" class = "btn btn-primary">
+    </form>
+  </body>
+<%- include('partials/footer') %>

@@ -1,0 +1,27 @@
+<%- include('partials/header') %>
+  <link rel = "stylesheet" src = "styleform.css">
+
+
+    <div class = "container" style = "padding:100px">
+    <form style = "font-size:25px" method = "post">
+<label>Name
+  <input name = "name" id = "name"   class = "form-control">
+  </label>
+  <p>
+    <label>E-mail
+      <input name = "email" class = "form-control">
+      </label>
+      </p>
+      <p>
+        <label>Message
+          <textarea id = "message" name = "message" rows = "6" cols = "100" maxlength = "500" style = "vertical-align:top" class = "form-control">
+            </textarea>
+            </label></p>
+            <div id = "coll">
+              Remaining characters: 500
+              </div>
+              <input type = "submit" name = "" value = "Submit" class = "btn btn-primary">
+            </form>
+          </div>
+<script src="/js/index2.js"></script>
+<%- include('partials/footer') %>

@@ -1,0 +1,50 @@
+
+h2,h3{
+
+color : white;
+text-align:center;
+text-decoration: underline;
+text-transform: capitalize;
+font-family: fantasy;
+ }
+ ul{
+   color: purple;
+ }
+ .hero-section{
+   text-align : center;
+   background-color:#2a9d8f;
+   height:100vh;
+
+ }
+ .Skills{
+   background-color:#1d3557;
+   height:100vh;
+
+
+ }
+ .Education{
+   background-color:#2a9d8f;
+   height:100vh;
+ }
+
+ .Hobbies{
+   background-color:#1d3557;
+   height:100vh;
+ }
+ button{
+   margin:20px 10px 30px 40px;
+
+ }
+ .Contact{
+   text-align:justify;
+   background-color:#2a9d8f;
+   height:100vh;
+ }
+ img{
+   width:30%;
+   height:50%;
+
+ }
+ .card{
+   height:500px;
+ }

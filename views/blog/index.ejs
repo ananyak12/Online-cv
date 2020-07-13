@@ -1,0 +1,22 @@
+<%- include('partials/header') %>
+<div class = "container">
+  <h1>My Blog</h1>
+  <hr>
+  <div class = "recent-Blogs">
+  <h3>Recent blogs </h3>
+  <hr>
+
+  <% for(var i = 0;i<blogs.length;i++){ %>
+    <div class = "post">
+<%   var blog = blogs[i] %>
+    <h4> <%= blogs[i].title %> </h4>
+        <% if(blogs[i].content.length <= 100) { %>
+<p> <%= blogs[i].content %> </p>
+<%}else{ %>
+  <p> <%= blogs[i].content.slice(0,100) %> ... &nbsp <a href = '/blog/posts/<%= blogs[i].title %>  '> (Read more) </a></p>
+<%}%>
+</div>
+ <hr>
+   <%}%>
+</div>
+<%- include('partials/footer') %>
